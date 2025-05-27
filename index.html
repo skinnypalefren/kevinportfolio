@@ -2,12 +2,57 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kevin — UI/UX Designer</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Hello, I'm Kevin</h1>
-  <button onclick="sayHello()">Click Me</button>
+  <header>
+    <nav>
+      <h1 class="logo">Kevin</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hi, I’m Kevin</h2>
+    <p>A UI/UX Designer & Visual Creative</p>
+    <button onclick="scrollToSection('work')">View My Work</button>
+  </section>
+
+  <section id="about" class="about">
+    <h3>About Me</h3>
+    <p>I’m a creative-focused designer passionate about clean visuals, smooth interfaces, and meaningful experiences.</p>
+    <p>Tools I use: Figma, Adobe XD, Photoshop, HTML/CSS, JavaScript</p>
+  </section>
+
+  <section id="work" class="work">
+    <h3>Selected Work</h3>
+    <div class="projects">
+      <div class="card">
+        <h4>Project One</h4>
+        <p>Short description of your design/project.</p>
+      </div>
+      <div class="card">
+        <h4>Project Two</h4>
+        <p>Short description of your design/project.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h3>Contact</h3>
+    <p>Email me at: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/skinnypalefren">skinnypalefren</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kevin. All rights reserved.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
