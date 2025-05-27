@@ -1,3 +1,3 @@
-function sayHello() {
-  alert("Welcome to my JavaScript Portfolio!");
+function scrollToSection(id) {
+  document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
 }
