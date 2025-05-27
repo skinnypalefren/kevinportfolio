@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kevin — UI/UX Designer</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -14,6 +17,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#work">Work</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><button id="theme-toggle">🌙</button></li>
       </ul>
     </nav>
   </header>
@@ -24,35 +28,58 @@
     <button onclick="scrollToSection('work')">View My Work</button>
   </section>
 
-  <section id="about" class="about">
+  <section id="about" class="about reveal">
     <h3>About Me</h3>
     <p>I’m a creative-focused designer passionate about clean visuals, smooth interfaces, and meaningful experiences.</p>
     <p>Tools I use: Figma, Adobe XD, Photoshop, HTML/CSS, JavaScript</p>
   </section>
 
-  <section id="work" class="work">
+  <section id="work" class="work reveal">
     <h3>Selected Work</h3>
     <div class="projects">
-      <div class="card">
-        <h4>Project One</h4>
-        <p>Short description of your design/project.</p>
+      <div class="card" onclick="openModal('modal1')">
+        <h4>Landing Page Design</h4>
+        <p>A sleek landing page designed in Figma.</p>
+        <a href="https://www.figma.com/file/yourfigmalink1" target="_blank">View on Figma</a>
       </div>
-      <div class="card">
-        <h4>Project Two</h4>
-        <p>Short description of your design/project.</p>
+      <div class="card" onclick="openModal('modal2')">
+        <h4>Mobile App UI</h4>
+        <p>Modern mobile app UI prototype.</p>
+        <a href="https://www.figma.com/file/yourfigmalink2" target="_blank">View on Figma</a>
       </div>
     </div>
   </section>
 
-  <section id="contact" class="contact">
+  <section id="contact" class="contact reveal">
     <h3>Contact</h3>
-    <p>Email me at: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-    <p>GitHub: <a href="https://github.com/skinnypalefren">skinnypalefren</a></p>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="_replyto" placeholder="Your email" required>
+      <textarea name="message" placeholder="Your message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
   </section>
 
   <footer>
     <p>&copy; 2025 Kevin. All rights reserved.</p>
   </footer>
+
+  <!-- Modals -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal1')">&times;</span>
+      <h2>Landing Page Design</h2>
+      <p>View this project on <a href="https://www.figma.com/file/yourfigmalink1" target="_blank">Figma</a>.</p>
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal2')">&times;</span>
+      <h2>Mobile App UI</h2>
+      <p>View this project on <a href="https://www.figma.com/file/yourfigmalink2" target="_blank">Figma</a>.</p>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
