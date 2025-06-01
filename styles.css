@@ -91,6 +91,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
+  padding: 20px;
 }
 
 .card {
@@ -412,7 +413,6 @@ body {
 }
 
 #project-cards {
-  color: #f4f4f4;
   background-color: #15191f;
   padding: 60px 20px;
   margin: 0 auto;
@@ -432,8 +432,7 @@ body {
 }
 
 .project-card {
-  background: #fff;
-  border: 1px solid #ccc;
+  background: #ffa800;
   aspect-ratio: 1 / 1;
   display: flex;
   flex-direction: column;
@@ -465,7 +464,7 @@ body {
 }
 
 .card-info p {
-  color: #666;
+  color: #15191f;
   font-size: 0.95rem;
 }
 
