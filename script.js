@@ -35,3 +35,21 @@ document.addEventListener("DOMContentLoaded", () => {
     el.style.transition = 'all 0.6s ease';
   }
 });
+
+  function openModal(id) {
+    document.getElementById(id).style.display = "block";
+  }
+
+  function closeModal(id) {
+    document.getElementById(id).style.display = "none";
+  }
+
+  // Optional: close modal when clicking outside
+  window.onclick = function(event) {
+    const modals = document.querySelectorAll(".modal");
+    modals.forEach(modal => {
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+  }
