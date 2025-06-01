@@ -95,8 +95,8 @@ body {
 }
 
 .card {
-  background-color: #e9e3d3;
-  border: 1px solid #e9e3d3;
+  background-color: #15191f;
+  border: 1px solid #15191f;
   width: 100%;
   aspect-ratio: 1 / 1; /* Makes it square */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
