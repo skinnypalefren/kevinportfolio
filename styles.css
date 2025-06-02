@@ -6,9 +6,9 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins';
   background: #f4f4f4;
-  color: #333;
+  color: #131313;
 }
 
 /* Hero Section */
@@ -51,14 +51,14 @@ body {
   color: #111;
   padding: 12px 24px;
   font-weight: bold;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition: 0.3s ease, color 0.3s ease;
   border-radius: 0;
   border: 2px solid transparent;
 }
 
 .btn:hover {
-  background-color: #ffcc00;
-  color: #000;
+  background-color: #ffa800;
+  color: #15191f;
 }
 
 .btn.secondary {
@@ -76,7 +76,7 @@ body {
 .about-section {
   padding: 60px 20px;
   text-align: center;
-  background-color: #ffa800;
+  background-color: #e9e3d3;
 }
 
 .about-section p {
@@ -121,11 +121,13 @@ body {
 }
 
 .card h3 {
+  font-weight: bolder;
   margin: 0 0 8px;
   font-size: 1.1rem;
 }
 
 .card p {
+  font-weight: bolder;
   margin: 0;
   font-size: 0.95rem;
   color: #555;
@@ -413,13 +415,13 @@ body {
 }
 
 #project-cards {
-  background-color: #15191f;
-  padding: 60px 20px;
+  background-color: #131313;
+  padding:20px;
   margin: 0 auto;
 }
 
 #project-cards h2 {
-  color: #f4f4f4;
+  color: #131313;
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 40px;
@@ -432,7 +434,7 @@ body {
 }
 
 .project-card {
-  background: #ffa800;
+  background: #e9e3d3;
   aspect-ratio: 1 / 1;
   display: flex;
   flex-direction: column;
@@ -446,7 +448,7 @@ body {
 
 .project-card img {
   width: 100%;
-  height: 60%;
+  height: 75%;
   object-fit: cover;
 }
 
@@ -454,13 +456,14 @@ body {
   padding: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content:baseline;
   height: 40%;
 }
 
 .card-info h3 {
   color: #15191f;
-  margin: 0 0 10px 0;
+  font-weight: bold;
+  font-style: italic;
   font-size: 1.2rem;
 }
 
@@ -483,8 +486,8 @@ body {
 }
 
 .modal-content {
-  background-color: #fff;
-  margin: 10% auto;
+  background-color: #131313;
+  margin: 5% auto;
   padding: 30px;
   border: 1px solid #888;
   width: 80%;
