@@ -25,48 +25,44 @@
   </section>
 
 
-  <!-- About -->
-<section class="about-section">
-  <h2>About Me</h2>
-  <p>
-    I'm <strong>Kevin Matthew L. Palma</strong>, a passionate and aspiring UI/UX designer with a strong foundation in user-centered design,
-    visual storytelling, and front-end collaboration. I specialize in creating intuitive digital experiences using tools
-    like <strong>Figma</strong> and <strong>Adobe XD</strong>, with additional expertise in wireframing, prototyping, user research, and responsive web design.
-  </p>
-  <br>
-  <p>
-    My experience includes designing web apps, NFTs, and UI/UX prototypes for various academic and professional projects, 
-    including my capstone system and a ticketing app for the Department of Public Works and Highways – NE 2nd District.
-    I’ve also served as Graphic Editor and later Head of the Tech Committee in the NEUST Honor Society, where I led a team
-    in producing high-impact visual materials.
-  </p>
-   <br>
-  <p>
-    I hold a certification in HTML and CSS from Certiport and have attended multiple national and international conferences 
-    on UI/UX, data privacy, AI, and digital design trends. I thrive in collaborative environments and enjoy solving complex 
-    design challenges through research-driven solutions and clean, modern interfaces.
-  </p>
+ <section class="about-section">
+  <div class="container">
+    <div class="about-grid">
+
+      <!-- About Me -->
+      <div class="about-text animate-on-scroll">
+        <h2>About Me</h2>
+        <p>
+          I'm <strong>Kevin Matthew L. Palma</strong>, a passionate and aspiring UI/UX designer with a focus on creating clean, user-centered digital experiences. I specialize in wireframing, prototyping, and crafting intuitive interfaces using Figma and Adobe XD.
+        </p>
+        <p>
+          I’ve worked on a variety of projects — from NFT websites to ticketing systems for the Department of Public Works and Highways. I also lead the technical team for the NEUST Honor Society, managing visual design and output.
+        </p>
+        <p>
+          I’m certified in HTML/CSS and continuously grow through design-related seminars and international conferences on AI, privacy, and modern UX practices.
+        </p>
+      </div>
+
+      <!-- Skills -->
+      <div class="skills-card animate-on-scroll">
+        <h3>Skills & Tools</h3>
+          <ul>
+            <li><strong>Design Tools:</strong> Figma, Adobe XD, Photoshop, Illustrator, Canva</li>
+            <li><strong>UX Process:</strong> Wireframing, Prototyping, User Research, Usability Testing, Feedback Integration</li>
+            <li><strong>Front-End Development:</strong> HTML, CSS, Responsive Design, Basic JavaScript, MySQL</li>
+            <li><strong>UI Design Principles:</strong> Visual Hierarchy, Accessibility, Typography, Color Theory</li>
+            <li><strong>Project Tools:</strong> GitHub, Trello, Notion, Google Workspace</li>
+            <li><strong>Media & Editing:</strong> Video Editing, Photo Retouching, Diagram Making</li>
+            <li><strong>Soft Skills:</strong> Problem Solving, Analytical Thinking, Communication, Team Leadership</li>
+            <li><strong>Other Skills:</strong> Documentation, Research Writing, Presentation Design</li>
+          </ul>
+
+      </div>
+
+    </div>
+  </div>
 </section>
 
- <!-- Skills -->
-<section class="skills-section">
-  <h2>Skills</h2>
-  <ul>
-    <li>UI/UX Design – Wireframing, Prototyping, User Research, Feedback Integration</li>
-    <br>
-    <li>Figma & Adobe XD Proficiency</li>
-    <br>
-    <li>HTML/CSS (Certiport Certified), MySQL Basics</li>
-    <br>
-    <li>Graphic & Illustration Design</li>
-    <br>
-    <li>Documentation and Diagram Creation</li>
-    <br>
-    <li>Usability Testing and Analytical Thinking</li>
-    <br>
-    <li>Collaboration with Developers and Stakeholders</li>
-  </ul>
-</section>
 
   <!--Projects-->
   <section id="project-cards">
@@ -325,6 +321,8 @@ A hybrid mobile/desktop platform designed to showcase artist portfolios in an im
  
 
   <script>
+
+    
     function openModal(id) {
       document.getElementById(`modal${id}`).style.display = "block";
     }
@@ -364,3 +362,23 @@ window.addEventListener('click', function(e) {
 });
 </script>
 
+<script>
+
+  document.addEventListener("DOMContentLoaded", () => {
+  const animatedElements = document.querySelectorAll('.animate-on-scroll');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+        observer.unobserve(entry.target); // Animate only once
+      }
+    });
+  }, {
+    threshold: 0.2
+  });
+
+  animatedElements.forEach(el => observer.observe(el));
+});
+
+</script>
