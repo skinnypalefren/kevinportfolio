@@ -1,384 +1,1152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Kevin - UI/UX Designer</title>
-  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-  <link rel="stylesheet" href="styles.css"/>
-</head>
-<body>
-  <!-- Hero  -->
-  <section class="hero">
-    <div class="floating-shapes">
-      <span class="circle"></span>
-      <span class="square"></span>
-    </div>
-    <div class="hero-content">
-      <h1 class="animated-heading">Hi, I’m <span class="highlight">Kevin Matthew L. Palma</span></h1>
-      <p class="animated-subheading">A UI/UX Designer & Visual Creative</p>
-      <div class="button-group animated-buttons">
-        <a href="#project-cards" class="btn">View My Work</a>
-        <a href="#contact" class="btn secondary">Contact Me</a>
-      </div>
-    </div>
-  </section>
-
-
- <section class="about-section">
-  <div class="container">
-    <div class="about-grid">
-
-      <!-- About Me -->
-      <div class="about-text animate-on-scroll">
-        <h2>About Me</h2>
-        <p>
-          I'm <strong>Kevin Matthew L. Palma</strong>, a passionate and aspiring UI/UX designer with a focus on creating clean, user-centered digital experiences. I specialize in wireframing, prototyping, and crafting intuitive interfaces using Figma and Adobe XD.
-        </p>
-        <p>
-          I’ve worked on a variety of projects — from NFT websites to ticketing systems for the Department of Public Works and Highways. I also lead the technical team for the NEUST Honor Society, managing visual design and output.
-        </p>
-        <p>
-          I’m certified in HTML/CSS and continuously grow through design-related seminars and international conferences on AI, privacy, and modern UX practices.
-        </p>
-      </div>
-
-      <!-- Skills -->
-      <div class="skills-card animate-on-scroll">
-        <h3>Skills & Tools</h3>
-          <ul>
-            <li><strong>Design Tools:</strong> Figma, Adobe XD, Photoshop, Illustrator, Canva</li>
-            <li><strong>UX Process:</strong> Wireframing, Prototyping, User Research, Usability Testing, Feedback Integration</li>
-            <li><strong>Front-End Development:</strong> HTML, CSS, Responsive Design, Basic JavaScript, MySQL</li>
-            <li><strong>UI Design Principles:</strong> Visual Hierarchy, Accessibility, Typography, Color Theory</li>
-            <li><strong>Project Tools:</strong> GitHub, Trello, Notion, Google Workspace</li>
-            <li><strong>Media & Editing:</strong> Video Editing, Photo Retouching, Diagram Making</li>
-            <li><strong>Soft Skills:</strong> Problem Solving, Analytical Thinking, Communication, Team Leadership</li>
-            <li><strong>Other Skills:</strong> Documentation, Research Writing, Presentation Design</li>
-          </ul>
-
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-  <!--Projects-->
-  <section id="project-cards">
-  <h2>My Projects</h2>
-  <div class="project-card-grid">
-    <div class="project-card" onclick="openModal('modal1')">
-      <img src="BayanLink.png" alt="Project 1" />
-      <div class="card-info">
-        <h3>BayanLink</h3>
-        <p>A Cross-Platform Civic Engagement Hub made for the officials and the citizens of San Isidro, Nueva Ecija.</p>
-      </div>
-    </div>
-
-    <div class="project-card" onclick="openModal('modal2')">
-      <img src="DPWH.png" alt="Project 2" />
-      <div class="card-info">
-        <h3>DPWH Network Ticketing System</h3>
-        <p>A Ticketing system, Password Verfier, and a Preventive Maintenance System.</p>
-      </div>
-    </div>
-
-    <div class="project-card" onclick="openModal('modal3')">
-      <img src="YvezBank.png" alt="Project 3" />
-      <div class="card-info">
-        <h3>YvezBank</h3>
-        <p>A mobile banking App.</p>
-      </div>
-    </div>
-
-    <div class="project-card" onclick="openModal('modal4')">
-      <img src="NannyNest.png" alt="Project 4" />
-      <div class="card-info">
-        <h3>NannyNest</h3>
-        <p>A Nanny Finder/Hiring App.</p>
-      </div>
-    </div>
-  </div>
-
-    <div class="project-card-grid">
-    <div class="project-card" onclick="openModal('modal5')">
-      <img src="BearBelly.png" alt="Project 5" />
-      <div class="card-info">
-        <h3>BearBelly</h3>
-        <p>A Crypto Webpage Prototype/Concept.</p>
-      </div>
-    </div>
-
-    <div class="project-card" onclick="openModal('modal6')">
-      <img src="Sinister Sips.png" alt="Project 6" />
-      <div class="card-info">
-        <h3>Sinister Sips Cafe</h3>
-        <p>A cafe with a comic book niche, web digital media Final Project.</p>
-      </div>
-    </div>
-
-    <div class="project-card" onclick="openModal('modal7')">
-      <img src="Marahuyo.png" alt="Project 7" />
-      <div class="card-info">
-        <h3>Marahuyo</h3>
-        <p>A hybrid app made to showcase artists and their art, Human Computer Interaction Final Project.</p>
-      </div>
-    </div>
-
-    <div class="project-card" onclick="openModal('modal8')">
-      <img src="ECOMRz.png" alt="Project 8" />
-      <div class="card-info">
-        <h3>ECOmrZ</h3>
-        <p>E-Commerce Design Practice.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Modals -->
-<div id="modal1" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('modal1')">&times;</span>
-    <h3>BayanLink</h3>
-    Prototype Link: <a href="https://www.figma.com/proto/8WsI4BgiR6TkP19o4ddPFG/BayanLink-2.0?node-id=30-15&t=F9PLpVmsWa2boznp-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=27%3A14"> BayanLink</a>
-    <img src="BayanLink.png" alt="Full project image">
-    <p><strong>Tools Used:</strong> Figma, HTML/CSS</p>
-    <p><strong>Description:</strong> BayanLink: LGU Communication Platform (Capstone Project)
-      <br>
-    A digital platform designed to streamline engagement between residents and local government units (LGUs). 
-    <br>
-    <strong>As UI/UX Designer, I led:</strong>
-      <br>
-    <strong>End-to-end design</strong> – Created wireframes, user flows, and interactive prototypes focused on intuitive navigation
-      <br>
-    <strong>Agile collaboration</strong> – Worked closely with developers through iterative testing and QA refinement
-      <br>
-    <strong>Documentation</strong> – Authored comprehensive project specs and user guides
-      <br>
-    <strong>Outcome:</strong> Delivered a functional prototype validated through usability testing with target stakeholders.</p>
-  </div>
-</div>
-
-<div id="modal2" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('modal2')">&times;</span>
-    <h3>DPWH Web App.</h3>
-    Prototype Link: <a href="https://www.figma.com/design/j25y0rWYxGGe6w2Suss4Zb/dpwh?node-id=0-1&t=vQaMgFegsOkRjWP6-1"> DPWH</a>
-    <img src="DPWH.png" alt="Full project image">
-    <p><strong>Tools Used:</strong> Figma</p>
-    <p><strong>Description:</strong> A secure document-tracking and password verification system developed for the DPWH 2nd District Engineering Office to digitize records and streamline internal workflows.
-    <br>
-    <strong>My Role (UI/UX Designer & QA Lead):</strong>
-    <br>   
-    <strong>Research & Design</strong> – Conducted stakeholder interviews, created wireframes, and prototyped the ticketing interface for seamless document submission.
-    <br>
-    <strong>Agile Development</strong> – Collaborated with programmers to iteratively test and refine features (e.g., password verifier, audit trails).
-    <br>
-    <strong>End-to-End Documentation</strong> – Authored technical specs, user manuals, and testing reports for compliance.
-    <br>
-    <strong>Outcome</strong>: Delivered a Figma-to-code solution that reduced manual paperwork by 60% (per post-launch feedback).</p>
-      </div>
-    </div>
-
-<div id="modal3" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('modal3')">&times;</span>
-    <h3>YvezBank</h3>
-    Prototype Link: <a href="https://www.figma.com/proto/aorakAlbc8ycpjFCCzZaLo/YvezBank?page-id=0%3A1&node-id=15-19&p=f&viewport=585%2C-65%2C0.77&t=2X8bdlYEQjbRkyLP-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A2"> YvezBank</a>
-    <img src="YvezBank.png" alt="Full project image">
-    <p><strong>Tools Used:</strong> Figma</p>
-    <p><strong>Description:</strong> A user-centric mobile banking application designed to simplify financial transactions, developed as our final programming project.
-      <br>
-      <strong>My Role (UI/UX Designer & QA Lead):</strong>
-      <br>
-      <strong>End-to-End Design</strong> – Created wireframes, user flows, and interactive prototypes focused on intuitive navigation and seamless transaction experiences
-      <br>
-      <strong>Agile Collaboration</strong> – Worked closely with developers through iterative testing and refinement of features
-      <br>
-     <strong> Quality Assurance</strong> – Conducted functional and usability testing to ensure bug-free performance
-      <br>
-      <strong>Project Documentation</strong> – Authored comprehensive technical documentation and user guides
-      <br>
-      <strong>Key Achievement:</strong> Delivered a fully functional prototype that successfully demonstrated core banking features through rigorous testing</p>
-        </div>
-      </div>
-
-
-<div id="modal4" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('modal4')">&times;</span>
-    <h3>NannyNest</h3>
-    Prototype Link: <a href="https://www.figma.com/proto/SNlKk4ErAIqfWHMgGdCf0W/2N---PalmaKevin?page-id=124%3A2&node-id=185-444&starting-point-node-id=143%3A4&t=qQXLu1wKCGzSyYFv-1"> NannyNest</a>
-    <img src="NannyNest.png" alt="Full project image">
-    <p><strong>Tools Used:</strong> Figma</p>
-    <p><strong>Description:</strong> A mobile app connecting families with qualified nannies, and for nannies to find jobs. Designed as my introduction to UX fundamentals.
-      <br>
-    <strong>My Role & Learnings</strong>
-      <br>
-    <strong>Foundational UX Skills</strong>: Created user flows, wireframes, and prototypes (Figma) while learning core principles like hierarchy and usability.
-      <br>
-    <strong>User-Centric Approach:</strong> Conducted basic user interviews to identify pain points (e.g., trust-building features for parents).
-      <br>
-    <strong>Iterative Design:</strong> Refined layouts based on peer feedback, mastering tools like component libraries.
-      <br>
-    <strong>Documentation:</strong> Authored a simple style guide and onboarding instructions.
-      <br>
-    <strong>Key Takeaway:</strong> This project taught me how to translate user needs into intuitive interfaces—sparking my passion for UX.</p>
-      </div>
-    </div>
-
-  <div id="modal5" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('modal5')">&times;</span>
-    <h3>BearBelly</h3>
-    Prototype Link: <a href="https://www.figma.com/design/E332BqXQ7ZrLi15MUfxAph/Bear-Belly?m=auto&t=rafIIbK20plAn7VY-1"> BearBelly</a>
-    <img src="BearBelly.png" alt="Full project image">
-    <p><strong>Tools Used:</strong> Figma</p>
-    <p><strong>Description:</strong> Web3 Minting Platform (Design Concept)<br>
-A user-friendly interface for NFT/token creation designed to simplify blockchain interactions for mainstream adoption.<br>
-<br>
-<strong>As UI/UX Designer, I led:</strong><br>
-<strong>End-to-end design</strong> – Created this design concept, showed user flows that focused on a 1-click minting and gas fee transparency.<br>
-<strong>Documentation</strong> – Prepared design specs for minting workflows and error states.<br>
-<br>
-<strong>Outcome:</strong> Delivered a rough concept prototype validated through peer feedback and the client's opinions, demonstrating improved crypto accessibility.</p>
-  </div>
-</div>
-
-<div id="modal6" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('modal6')">&times;</span>
-    <h3>Sinister Sips Cafe</h3>
-    Prototype Link: <a href="https://www.figma.com/proto/7PyvYm10jw8fENIPvNG1a4/Sinister-Sips?page-id=0%3A1&node-id=27-480&node-type=frame&viewport=437%2C536%2C0.49&t=99Q0nND4FrpV7cta-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A3"> Sinister Sips</a>
-    <img src="Sinister Sips.png" alt="Full project image">
-    <p><strong>Tools Used:</strong> Figma</p>
-<p><strong>Description:</strong> Sinister Sips - Comic-Themed Café (Web Design Final Project)<br>
-A Figma-designed website concept featuring dark comic aesthetics for a specialty beverage shop.<br>
-<br>
-<strong>As Designer, I delivered:</strong><br>
-<strong>Brand identity</strong> – Created the "Sinister Sips" logo and villain-inspired product illustrations<br>
-<strong>Product showcase</strong> – Designed mockups for signature drinks with comic-style packaging<br>
-<strong>UI components</strong> – Built clickable Figma prototypes for menu navigation and checkout flow<br>
-<br>
-<strong>Outcome:</strong> Completed a high-fidelity Figma prototype demonstrating the café's unique dark-comic brand vision through cohesive visual storytelling.</p>
-      </div>
-    </div>
-
-<div id="modal7" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('modal7')">&times;</span>
-    <h3>Marahuyo</h3>
-    Prototype Link: <a href="https://www.figma.com/proto/gQIAR6NGpSgaqRfQ0InFiO/Marahuyo?page-id=1%3A4&node-id=217-72&starting-point-node-id=217%3A72&t=zmkcJf6sHDeQCTSF-1"> Marahuyo</a>
-    <img src="Marahuyo.png" alt="Full project image">
-<p><strong>Description:</strong> Marahuyo - Digital Art Museum App (HCI Final Project)<br>
-A hybrid mobile/desktop platform designed to showcase artist portfolios in an immersive gallery-style interface.<br>
-<br>
-<strong>As the Designer & Tester, I executed:</strong><br>
-<strong>End-to-end UX flow</strong> – Wireframed artist profiles, 3D gallery spaces, and art discovery features<br>
-<strong>HCI principles</strong> – Implemented gesture controls (pinch-zoom, swipe) for artwork interaction<br>
-<strong>Usability testing</strong> – Conducted cognitive walkthroughs with 10 artists to refine navigation<br>
-<br>
-<strong>Outcome:</strong> Delivered a functional Figma prototype validating the hybrid interface's effectiveness for art exploration and community engagement.</p>
-        </div>
-      </div>
-
-
-<div id="modal8" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('modal8')">&times;</span>
-    <h3>ECOMrz</h3>
-    Prototype Link: <a href="https://www.figma.com/design/iv6zUajnnSdxy9R1gbm3U7/ECOmrZ?node-id=0-1&t=VBBtdOZFUSp9dUKO-1"> ECOMRz</a>
-    <img src="ECOMRz.png" alt="Full project image">
-    <p><strong>Tools Used:</strong> Figma</p>
-    <p><strong>Description:</strong> A study on e-commerce platforms and Figma functions.
-      <br>
-      <strong>My Role & Learnings</strong><br>
-      <strong>UX/UI Designer</strong> for ECOMrz – Prototyped sustainable e-commerce flows in Figma, focusing on conversion optimization.<br>
-      <br>
-      <strong>Foundational Skills</strong><br>
-      Created user flows, wireframes, and high-fidelity prototypes for product pages and checkout (mobile-first).<br>
-      <br>
-      <strong>User Research</strong><br>
-      Conducted interviews revealing 42% cart abandonment due to hidden costs – implemented dynamic shipping calculators.<br>
-      <br>
-      <strong>Iterative Design</strong><br>
-      A/B tested CTAs ("Add to Cart" vs. "Buy Now") and built reusable Figma components for 50+ screens.<br>
-      <br>
-      </div>
-    </div>
-
-  
-
-  <!-- Contact  -->
-  <section id="contact" class="contact-section">
-    <h2>Contact Me</h2>
-    <p>Reach out via email: <a href="mailto:kevinmatthewlopezpalma@gmail.com">kevinmatthewlopezpalma@gmail.com</a></p>
-    <p>Here's my LinkedIn!: <a href=https://www.linkedin.com/in/kevin-matthew-palma-4b86251a3>www.linkedin.com/in/kevin-matthew-palma-4b86251a3</a></p>
-    <p>Call or Text me via Viber:<a href="+63 908-290-9219"> +63 908-290-9219</a></p>
-  </section>
-
- 
-
-  <script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Matthew L. Palma - UI/UX & Graphic Designer</title>
+    <meta name="description" content="Aspiring UI/UX designer with proficiency in Figma, wireframing, and graphic design. Skilled in user research, prototyping, and visual design principles.">
     
-    function openModal(id) {
-      document.getElementById(`modal${id}`).style.display = "block";
-    }
+    <!-- Preload critical resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'></text></svg>">
+</head>
+<body data-theme="light">
+    <!-- Loading Screen -->
+    <div class="loading-screen active" id="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">KP</div>
+            <div class="loading-text">Loading Portfolio...</div>
+            <div class="loading-bar">
+                <div class="loading-progress" id="loading-progress"></div>
+            </div>
+        </div>
+    </div>
 
-    function closeModal(id) {
-      document.getElementById(`modal${id}`).style.display = "none";
-    }
+    <!-- Project Modal -->
+    <div class="modal-overlay" id="project-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close" aria-label="Close modal">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2"/>
+                    <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2"/>
+                </svg>
+            </button>
+            
+            <div class="modal-header">
+                <img id="modal-image" src="/placeholder.svg" alt="" class="modal-project-image">
+                <div class="modal-project-info">
+                    <h2 id="modal-title"></h2>
+                    <p id="modal-subtitle"></p>
+                    <div id="modal-tags" class="modal-tags"></div>
+                </div>
+            </div>
+            
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3>Project Overview</h3>
+                    <p id="modal-overview"></p>
+                </div>
+                
+                <div class="modal-section">
+                    <h3>My Role & Responsibilities</h3>
+                    <ul id="modal-responsibilities"></ul>
+                </div>
+                
+                <div class="modal-section">
+                    <h3>Design Process</h3>
+                    <ul id="modal-process"></ul>
+                </div>
+                
+                <div class="modal-section">
+                    <h3>Key Features</h3>
+                    <ul id="modal-features"></ul>
+                </div>
+                
+                <div class="modal-section">
+                    <h3>Tools & Technologies</h3>
+                    <div id="modal-tools" class="modal-tools"></div>
+                </div>
+                
+                <div class="modal-section">
+                    <h3>Challenges & Solutions</h3>
+                    <p id="modal-challenges"></p>
+                </div>
+                
+                <div class="modal-section">
+                    <h3>Results & Impact</h3>
+                    <p id="modal-results"></p>
+                </div>
+            </div>
+            
+            <div class="modal-footer">
+                <div id="modal-links" class="modal-project-links"></div>
+            </div>
+        </div>
+    </div>
 
-    window.onclick = function(event) {
-      for (let i = 1; i <= 3; i++) {
-        const modal = document.getElementById(`modal${i}`);
-        if (event.target === modal) {
-          modal.style.display = "none";
-        }
-      }
-    };
-  </script>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">Kevin Palma</span>
+            </a>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#case-studies" class="nav-link">UX/UI Case Studies</a></li>
+                <li><a href="#creative-works" class="nav-link">Creative Works</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <svg class="theme-icon sun" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/>
+                        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                    <svg class="theme-icon moon" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </button>
+                
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-background">
+                <div class="hero-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="hero-greeting">Hello, I'm</div>
+                        <h1 class="hero-name">Kevin Matthew L. Palma</h1>
+                        <p class="hero-title">UI/UX & Graphic Designer</p>
+                        <p class="hero-description">
+                            Aspiring UI/UX designer with proficiency in Figma, wireframing, and graphic design. 
+                            Skilled in user research, prototyping, and visual design principles. Certified in HTML/CSS 
+                            with a solid understanding of responsive design and front-end collaboration. Adept at 
+                            documentation, usability testing, and creating user-centered solutions.
+                        </p>
+                        <div class="hero-status">
+                            <div class="status-indicator">
+                                <div class="status-dot"></div>
+                                <span>Available for opportunities</span>
+                            </div>
+                        </div>
+                        <div class="hero-actions">
+                            <a href="#case-studies" class="btn btn-primary">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                View My Work
+                            </a>
+                            <a href="#contact" class="btn btn-secondary">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2"/>
+                                    <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                Get In Touch
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="hero-image">
+                            <img src="heropic.png" alt="Kevin Matthew L. Palma - Designer" class="profile-image">
+                            <div class="image-decoration"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">IT Student passionate about creating meaningful digital experiences</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="about-intro">
+                            <p>
+                                I'm currently pursuing a Bachelor of Science in Information Technology at Nueva Ecija University 
+                                of Science and Technology, with a strong focus on UI/UX design and graphic design. My journey in 
+                                design began in 2020, and since then, I've been dedicated to creating user-centered solutions 
+                                that solve real problems while delivering exceptional experiences.
+                            </p>
+                            <p>
+                                Through my academic projects, internships, and leadership roles, I've developed expertise in 
+                                user research, wireframing, prototyping, and visual design. I believe great design should be 
+                                both beautiful and functional, always putting the user's needs at the center of every decision.
+                            </p>
+                        </div>
+                        
+                        <div class="education-section">
+                            <h3>Education</h3>
+                            <div class="education-item">
+                                <div class="education-details">
+                                    <h4>Bachelor of Science in Information Technology</h4>
+                                    <p class="education-school">Nueva Ecija University of Science and Technology</p>
+                                    <p class="education-year">2021 - Present</p>
+                                    <p class="education-description">
+                                        Focused on UI/UX Design, Human-Computer Interaction, and Software Development. 
+                                        Active member of NEUST Honor Society, serving as Head of Technical Team while 
+                                        continuing graphic design duties.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="education-item">
+                                <div class="education-details">
+                                    <h4>STEM - Science, Technology, Engineering, and Mathematics</h4>
+                                    <p class="education-school">Cabanatuan City Senior High School</p>
+                                    <p class="education-year">2019 - 2021</p>
+                                    <p class="education-description">
+                                        Participated in Robotics competitions, achieving 3rd place as District Representative 
+                                        in Robotics and Intelligent Machines category.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-section">
+                            <h3>Skills & Expertise</h3>
+                            <div class="skills-grid">
+                                <div class="skill-category">
+                                    <h4>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="currentColor" stroke-width="2"/>
+                                            <circle cx="8.5" cy="8.5" r="1.5" stroke="currentColor" stroke-width="2"/>
+                                            <polyline points="21,15 16,10 5,21" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                        UI/UX Design
+                                    </h4>
+                                    <ul>
+                                        <li>Wireframing & Prototyping</li>
+                                        <li>User Research & Information Architecture</li>
+                                        <li>Figma Expertise</li>
+                                        <li>Feedback Integration</li>
+                                        <li>Usability Testing</li>
+                                    </ul>
+                                </div>
+                                <div class="skill-category">
+                                    <h4>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                            <polygon points="12,2 2,7 12,12 22,7 12,2" stroke="currentColor" stroke-width="2"/>
+                                            <polyline points="2,17 12,22 22,17" stroke="currentColor" stroke-width="2"/>
+                                            <polyline points="2,12 12,17 22,12" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                        Design & Development
+                                    </h4>
+                                    <ul>
+                                        <li>Illustration & Graphic Design</li>
+                                        <li>Photo & Video Editing</li>
+                                        <li>HTML & CSS (Certified)</li>
+                                        <li>MySQL Database</li>
+                                        <li>Documentation & Diagram Making</li>
+                                    </ul>
+                                </div>
+                                <div class="skill-category">
+                                    <h4>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                        Soft Skills
+                                    </h4>
+                                    <ul>
+                                        <li>Analytical Thinking</li>
+                                        <li>Problem Solving</li>
+                                        <li>Team Leadership</li>
+                                        <li>Project Management</li>
+                                        <li>Communication</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h4>Current Student</h4>
+                            <p>Pursuing BS Information Technology with focus on UI/UX Design</p>
+                        </div>
+                        
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h4>Leadership Experience</h4>
+                            <p>Head of Technical Team at NEUST Honor Society</p>
+                        </div>
+                        
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h4>Real Experience</h4>
+                            <p>500+ hours of internship experience at DPWH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Studies Section -->
+        <section id="case-studies" class="case-studies section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">UX/UI Case Studies</h2>
+                    <p class="section-subtitle">Detailed explorations of my design process and problem-solving approach</p>
+                </div>
+                
+                <div class="case-studies-grid">
+                    <!-- Case Study 1: Yvez Bank -->
+                    <article class="case-study-card" data-project="yvez-bank">
+                        <div class="case-study-image">
+                            <img src="pics/YvezBank.png" alt="Yvez Bank Mobile Banking App" class="case-study-img">
+                            <div class="case-study-overlay">
+                                <div class="case-study-links">
+                                    <button class="case-study-link view-details-btn">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" stroke="currentColor" stroke-width="2"/>
+                                            <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                        View Details
+                                    </button>
+                                    <a href="https://www.figma.com/proto/aorakAlbc8ycpjFCCzZaLo/YvezBank?page-id=0%3A1&node-id=15-19&p=f&viewport=585%2C-65%2C0.77&t=2X8bdlYEQjbRkyLP-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A2" class="case-study-link" target="_blank" rel="noopener">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" stroke="currentColor" stroke-width="2"/>
+                                            <polyline points="15,3 21,3 21,9" stroke="currentColor" stroke-width="2"/>
+                                            <line x1="10" y1="14" x2="21" y2="3" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                        View Prototype
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-study-content">
+                            <div class="case-study-meta">
+                                <span class="case-study-type">Mobile Banking App</span>
+                                <span class="case-study-duration">Academic Project</span>
+                            </div>
+                            <h3 class="case-study-title">Yvez Bank - Mobile Banking App</h3>
+                            <p class="case-study-description">
+                                A comprehensive mobile banking application designed to provide users with seamless financial 
+                                management capabilities. The project focused on creating an intuitive interface that simplifies 
+                                complex banking operations while maintaining security and accessibility standards.
+                            </p>
+                            <div class="case-study-tags">
+                                <span class="tag">Mobile Design</span>
+                                <span class="tag">Financial UX</span>
+                                <span class="tag">Prototyping</span>
+                                <span class="tag">User Research</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Case Study 2: NannyNest -->
+                    <article class="case-study-card" data-project="nanny-nest">
+                        <div class="case-study-image">
+                            <img src="pics/NannyNest.png" alt="NannyNest Nanny Hiring App" class="case-study-img">
+                            <div class="case-study-overlay">
+                                <div class="case-study-links">
+                                    <button class="case-study-link view-details-btn">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" stroke="currentColor" stroke-width="2"/>
+                                            <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                        View Details
+                                    </button>
+                                    <a href="https://www.figma.com/proto/SNlKk4ErAIqfWHMgGdCf0W/2N---PalmaKevin?page-id=124%3A2&node-id=185-444&starting-point-node-id=143%3A4&t=qQXLu1wKCGzSyYFv-1" class="case-study-link" target="_blank" rel="noopener">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" stroke="currentColor" stroke-width="2"/>
+                                            <polyline points="15,3 21,3 21,9" stroke="currentColor" stroke-width="2"/>
+                                            <line x1="10" y1="14" x2="21" y2="3" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                        High Fidelity
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-study-content">
+                            <div class="case-study-meta">
+                                <span class="case-study-type">Service Platform</span>
+                                <span class="case-study-duration">Academic Project</span>
+                            </div>
+                            <h3 class="case-study-title">NannyNest - Nanny Hiring App</h3>
+                            <p class="case-study-description">
+                                A platform connecting families with qualified nannies, featuring comprehensive profiles, 
+                                background verification, and scheduling systems. The design process included extensive 
+                                user research to understand both parent and caregiver needs, resulting in a trusted 
+                                and efficient matching system.
+                            </p>
+                            <div class="case-study-tags">
+                                <span class="tag">Service Design</span>
+                                <span class="tag">Two-sided Platform</span>
+                                <span class="tag">Trust & Safety</span>
+                                <span class="tag">Wireframing</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Case Study 3: BayanLink -->
+                    <article class="case-study-card" data-project="bayan-link">
+                        <div class="case-study-image">
+                            <img src="pics/BayanLink.png" alt="BayanLink Capstone Project" class="case-study-img">
+                            <div class="case-study-overlay">
+                                <div class="case-study-links">
+                                    <button class="case-study-link view-details-btn">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" stroke="currentColor" stroke-width="2"/>
+                                            <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                        View Details
+                                    </button>
+                                    <a href="https://www.figma.com/design/8WsI4BgiR6TkP19o4ddPFG/BayanLink-2.0?node-id=0-1&t=cEle6Cxy8R2XS65m-1" class="case-study-link" target="_blank" rel="noopener">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" stroke="currentColor" stroke-width="2"/>
+                                            <polyline points="15,3 21,3 21,9" stroke="currentColor" stroke-width="2"/>
+                                            <line x1="10" y1="14" x2="21" y2="3" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                        View Design
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-study-content">
+                            <div class="case-study-meta">
+                                <span class="case-study-type">Capstone Project</span>
+                                <span class="case-study-duration">Final Project</span>
+                            </div>
+                            <h3 class="case-study-title">BayanLink v2 - Community Platform</h3>
+                            <p class="case-study-description">
+                                My capstone project focusing on connecting local communities through digital platforms. 
+                                The project involved comprehensive user research, iterative design processes, and 
+                                extensive documentation. BayanLink aims to strengthen community bonds through 
+                                technology-enabled communication and collaboration.
+                            </p>
+                            <div class="case-study-tags">
+                                <span class="tag">Community Platform</span>
+                                <span class="tag">Capstone Project</span>
+                                <span class="tag">User Research</span>
+                                <span class="tag">System Design</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Case Study 4: Marahuyo -->
+                    <article class="case-study-card" data-project="marahuyo">
+                        <div class="case-study-image">
+                            <img src="pics/Marahuyo.png" alt="Marahuyo HCI Project" class="case-study-img">
+                            <div class="case-study-overlay">
+                                <div class="case-study-links">
+                                    <button class="case-study-link view-details-btn">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" stroke="currentColor" stroke-width="2"/>
+                                            <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                        View Details
+                                    </button>
+                                    <a href="https://www.figma.com/proto/gQIAR6NGpSgaqRfQ0InFiO/HCI-Groupwork?page-id=1%3A4&node-id=217-72&starting-point-node-id=217%3A72&t=zmkcJf6sHDeQCTSF-1" class="case-study-link" target="_blank" rel="noopener">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" stroke="currentColor" stroke-width="2"/>
+                                            <polyline points="15,3 21,3 21,9" stroke="currentColor" stroke-width="2"/>
+                                            <line x1="10" y1="14" x2="21" y2="3" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                        High Fidelity
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-study-content">
+                            <div class="case-study-meta">
+                                <span class="case-study-type">HCI Final Project</span>
+                                <span class="case-study-duration">Group Project</span>
+                            </div>
+                            <h3 class="case-study-title">Marahuyo - HCI Final Project</h3>
+                            <p class="case-study-description">
+                                A comprehensive Human-Computer Interaction project that explores user experience design 
+                                principles through practical application. The project demonstrates understanding of 
+                                interaction design, usability principles, and responsive design across multiple platforms.
+                            </p>
+                            <div class="case-study-tags">
+                                <span class="tag">Human-Computer Interaction</span>
+                                <span class="tag">Responsive Design</span>
+                                <span class="tag">Group Collaboration</span>
+                                <span class="tag">Usability Testing</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Case Study 5: DPWH Ticketing -->
+                    <article class="case-study-card" data-project="dpwh-ticketing">
+                        <div class="case-study-image">
+                            <img src="pics/DPWH.png" alt="DPWH Ticketing Web App" class="case-study-img">
+                            <div class="case-study-overlay">
+                                <div class="case-study-links">
+                                    <button class="case-study-link view-details-btn">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" stroke="currentColor" stroke-width="2"/>
+                                            <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                        View Details
+                                    </button>
+                                    <a href="https://www.figma.com/design/j25y0rWYxGGe6w2Suss4Zb/dpwh?node-id=0-1&t=vQaMgFegsOkRjWP6-1" class="case-study-link" target="_blank" rel="noopener">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" stroke="currentColor" stroke-width="2"/>
+                                            <polyline points="15,3 21,3 21,9" stroke="currentColor" stroke-width="2"/>
+                                            <line x1="10" y1="14" x2="21" y2="3" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                        View Design
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-study-content">
+                            <div class="case-study-meta">
+                                <span class="case-study-type">Internship Project</span>
+                                <span class="case-study-duration">DPWH Internship</span>
+                            </div>
+                            <h3 class="case-study-title">DPWH Ticketing Web App</h3>
+                            <p class="case-study-description">
+                                Designed during my internship at Department of Public Works and Highways Nueva Ecija 2nd 
+                                District Engineering Office. This ticketing system streamlines internal processes and 
+                                improves workflow efficiency. The project involved stakeholder interviews, process mapping, 
+                                and iterative design based on real user feedback.
+                            </p>
+                            <div class="case-study-tags">
+                                <span class="tag">Government System</span>
+                                <span class="tag">Process Improvement</span>
+                                <span class="tag">Stakeholder Research</span>
+                                <span class="tag">Web Application</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Creative Works Section -->
+        <section id="creative-works" class="creative-works section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Creative Works</h2>
+                    <p class="section-subtitle">Additional projects showcasing design versatility and creativity</p>
+                </div>
+                
+                <div class="creative-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Design</button>
+                    <button class="filter-btn" data-filter="crypto">Crypto/NFT</button>
+                    <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+                    <button class="filter-btn" data-filter="concept">Concepts</button>
+                </div>
+                
+                <div class="creative-grid">
+                    <div class="creative-item" data-category="web" data-project="sinister-sips">
+                        <div class="creative-image">
+                            <img src="pics/Sinister Sips.png" alt="Sinister Sips Cafe Website" class="creative-img">
+                            <div class="creative-overlay">
+                                <div class="creative-info">
+                                    <h4>Sinister Sips Cafe</h4>
+                                    <p>Niche cafe website design with dark, atmospheric branding</p>
+                                    <div class="creative-actions">
+                                        <button class="creative-link view-details-btn">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" stroke="currentColor" stroke-width="2"/>
+                                                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                                            </svg>
+                                            View Details
+                                        </button>
+                                        <a href="https://www.figma.com/proto/7PyvYm10jw8fENIPvNG1a4/Sinister-Sips?page-id=0%3A1&node-id=27-480&node-type=frame&viewport=437%2C536%2C0.49&t=99Q0nND4FrpV7cta-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A3" class="creative-link" target="_blank" rel="noopener">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" stroke="currentColor" stroke-width="2"/>
+                                                <polyline points="15,3 21,3 21,9" stroke="currentColor" stroke-width="2"/>
+                                                <line x1="10" y1="14" x2="21" y2="3" stroke="currentColor" stroke-width="2"/>
+                                            </svg>
+                                            View Project
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="creative-item" data-category="crypto" data-project="bear-belly">
+                        <div class="creative-image">
+                            <img src="pics/BearBelly.png" alt="BearBelly NFT Website" class="creative-img">
+                            <div class="creative-overlay">
+                                <div class="creative-info">
+                                    <h4>BearBelly NFT</h4>
+                                    <p>Crypto webpage prototype for NFT minting and representation</p>
+                                    <div class="creative-actions">
+                                        <button class="creative-link view-details-btn">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" stroke="currentColor" stroke-width="2"/>
+                                                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                                            </svg>
+                                            View Details
+                                        </button>
+                                        <a href="https://www.figma.com/design/E332BqXQ7ZrLi15MUfxAph/Bear-Belly?m=auto&t=rafIIbK20plAn7VY-1" class="creative-link" target="_blank" rel="noopener">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" stroke="currentColor" stroke-width="2"/>
+                                                <polyline points="15,3 21,3 21,9" stroke="currentColor" stroke-width="2"/>
+                                                <line x1="10" y1="14" x2="21" y2="3" stroke="currentColor" stroke-width="2"/>
+                                            </svg>
+                                            View Project
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="creative-item" data-category="ecommerce" data-project="ecomrz">
+                        <div class="creative-image">
+                            <img src="pics/ECOMRz.png" alt="ECOmrZ E-Commerce" class="creative-img">
+                            <div class="creative-overlay">
+                                <div class="creative-info">
+                                    <h4>ECOmrZ</h4>
+                                    <p>E-commerce design practice focusing on sustainable products</p>
+                                    <div class="creative-actions">
+                                        <button class="creative-link view-details-btn">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" stroke="currentColor" stroke-width="2"/>
+                                                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                                            </svg>
+                                            View Details
+                                        </button>
+                                        <a href="https://www.figma.com/design/iv6zUajnnSdxy9R1gbm3U7/ECOmrZ?node-id=0-1&t=VBBtdOZFUSp9dUKO-1" class="creative-link" target="_blank" rel="noopener">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" stroke="currentColor" stroke-width="2"/>
+                                                <polyline points="15,3 21,3 21,9" stroke="currentColor" stroke-width="2"/>
+                                                <line x1="10" y1="14" x2="21" y2="3" stroke="currentColor" stroke-width="2"/>
+                                            </svg>
+                                            View Project
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="creative-item" data-category="crypto">
+                        <div class="creative-image">
+                            <img src="pics/NFT (2).png" alt="NFT Projects" class="creative-img">
+                            <div class="creative-overlay">
+                                <div class="creative-info">
+                                    <h4>NFT Collection Work</h4>
+                                    <p>Designed traits and websites for Gooey Kids, Graf, and Kurieitib NFT projects</p>
+                                    <div class="creative-actions">
+                                        <button class="creative-link view-details-btn">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" stroke="currentColor" stroke-width="2"/>
+                                                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                                            </svg>
+                                            View Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="creative-item" data-category="concept">
+                        <div class="creative-image">
+                            <img src="/placeholder.svg?height=300&width=300" alt="Design Practice Projects" class="creative-img">
+                            <div class="creative-overlay">
+                                <div class="creative-info">
+                                    <h4>Design Practice</h4>
+                                    <p>Various prototypes created for school projects and personal practice</p>
+                                    <div class="creative-actions">
+                                        <button class="creative-link view-details-btn">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" stroke="currentColor" stroke-width="2"/>
+                                                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                                            </svg>
+                                            View Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="creative-item" data-category="concept">
+                        <div class="creative-image">
+                            <img src="pics/NHS 1.png" alt="Honor Society Graphics" class="creative-img">
+                            <div class="creative-overlay">
+                                <div class="creative-info">
+                                    <h4>NEUST Honor Society</h4>
+                                    <p>Publication materials and visual designs for university organization</p>
+                                    <div class="creative-actions">
+                                        <button class="creative-link view-details-btn">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" stroke="currentColor" stroke-width="2"/>
+                                                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                                            </svg>
+                                            View Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="resume section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Resume</h2>
+                    <p class="section-subtitle">My educational background, experience, and achievements</p>
+                    <button id="download-cv-btn" class="btn btn-primary download-btn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor" stroke-width="2"/>
+                            <polyline points="7,10 12,15 17,10" stroke="currentColor" stroke-width="2"/>
+                            <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        Download PDF
+                    </button>
+                </div>
+                
+                <div class="resume-content">
+                    <div class="resume-section">
+                        <h3 class="resume-section-title">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M6 12v5c3 3 9 3 12 0v-5" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            Education
+                        </h3>
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <h4>Bachelor of Science in Information Technology</h4>
+                                <span class="resume-date">2021 - Present</span>
+                            </div>
+                            <p class="resume-institution">Nueva Ecija University of Science and Technology</p>
+                            <ul class="resume-details">
+                                <li>Focused on UI/UX Design, Human-Computer Interaction, and Software Development</li>
+                                <li>Active member of NEUST Honor Society</li>
+                                <li>Completed capstone project on community platform development</li>
+                                <li>Relevant coursework: HCI, Database Systems, Web Development, Software Engineering</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <h4>STEM - Science, Technology, Engineering, and Mathematics</h4>
+                                <span class="resume-date">2019 - 2021</span>
+                            </div>
+                            <p class="resume-institution">Cabanatuan City Senior High School</p>
+                            <ul class="resume-details">
+                                <li>Participated in Robotics and Intelligent Machines competition</li>
+                                <li>Achieved 3rd place as District Representative</li>
+                                <li>Strong foundation in mathematics, science, and technology</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h3 class="resume-section-title">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="currentColor" stroke-width="2"/>
+                                <line x1="8" y1="21" x2="16" y2="21" stroke="currentColor" stroke-width="2"/>
+                                <line x1="12" y1="17" x2="12" y2="21" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            Experience
+                        </h3>
+                        
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <h4>UI/UX Designer and Helpdesk Technician Trainee</h4>
+                                <span class="resume-date">January - May 2025</span>
+                            </div>
+                            <p class="resume-institution">Department of Public Works and Highways Nueva Ecija 2nd District Engineering Office</p>
+                            <ul class="resume-details">
+                                <li>Completed 500 hours of on-the-job training</li>
+                                <li>Designed a comprehensive ticketing web application for internal processes</li>
+                                <li>Conducted stakeholder interviews and user research</li>
+                                <li>Provided technical support and helpdesk services</li>
+                                <li>Collaborated with government employees to improve workflow efficiency</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <h4>Head of Technical Team & Graphic Editor</h4>
+                                <span class="resume-date">2023 - Present</span>
+                            </div>
+                            <p class="resume-institution">NEUST Honor Society, Nueva Ecija University of Science and Technology</p>
+                            <ul class="resume-details">
+                                <li><strong>First Year (2023-2024):</strong> Served as Graphic Editor, creating and editing publication materials and visual designs</li>
+                                <li><strong>Second Year (2024-2025):</strong> Promoted to Head of Technical Team while continuing graphic design duties</li>
+                                <li>Successfully managed and distributed workload among volunteers and committee members</li>
+                                <li>Ensured timely and high-quality outputs for organizational needs</li>
+                                <li>Led design projects and mentored junior members</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <h4>NFT Designer & Web Developer</h4>
+                                <span class="resume-date">2020 - 2021</span>
+                            </div>
+                            <p class="resume-institution">Freelance - Gooey Kids / Graf / Kurieitib</p>
+                            <ul class="resume-details">
+                                <li>Designed websites for NFT minting and representation</li>
+                                <li>Created and published traits for multiple NFT projects</li>
+                                <li>Collaborated with crypto communities and developers</li>
+                                <li>Gained experience in blockchain-based design projects</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h3 class="resume-section-title">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <polygon points="12,2 2,7 12,12 22,7 12,2" stroke="currentColor" stroke-width="2"/>
+                                <polyline points="2,17 12,22 22,17" stroke="currentColor" stroke-width="2"/>
+                                <polyline points="2,12 12,17 22,12" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            Key Projects
+                        </h3>
+                        
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <h4>BayanLink v2 - Community Platform</h4>
+                                <span class="resume-date">Capstone Project</span>
+                            </div>
+                            <p class="resume-institution">Final Year Project - NEUST</p>
+                            <ul class="resume-details">
+                                <li>Designed and prototyped a comprehensive community platform</li>
+                                <li>Conducted extensive user research and stakeholder interviews</li>
+                                <li>Created detailed documentation and design specifications</li>
+                                <li>Demonstrated full UX design process from research to final prototype</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <h4>DPWH Ticketing Web Application</h4>
+                                <span class="resume-date">Internship Project</span>
+                            </div>
+                            <p class="resume-institution">DPWH Nueva Ecija 2nd District Engineering Office</p>
+                            <ul class="resume-details">
+                                <li>Designed user interface for government ticketing system</li>
+                                <li>Improved internal workflow processes through design solutions</li>
+                                <li>Created comprehensive documentation and user guides</li>
+                                <li>Collaborated with government stakeholders and end users</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h3 class="resume-section-title">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            Skills
+                        </h3>
+                        
+                        <div class="skills-categories">
+                            <div class="skill-category-resume">
+                                <h4>UI/UX Design</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Figma</span>
+                                    <span class="skill-tag">Wireframing</span>
+                                    <span class="skill-tag">Prototyping</span>
+                                    <span class="skill-tag">User Research</span>
+                                    <span class="skill-tag">Information Architecture</span>
+                                    <span class="skill-tag">Usability Testing</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category-resume">
+                                <h4>Design & Development</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Graphic Design</span>
+                                    <span class="skill-tag">Illustration</span>
+                                    <span class="skill-tag">HTML/CSS</span>
+                                    <span class="skill-tag">MySQL</span>
+                                    <span class="skill-tag">Photo Editing</span>
+                                    <span class="skill-tag">Video Editing</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-category-resume">
+                                <h4>Soft Skills</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Analytical Thinking</span>
+                                    <span class="skill-tag">Problem Solving</span>
+                                    <span class="skill-tag">Team Leadership</span>
+                                    <span class="skill-tag">Documentation</span>
+                                    <span class="skill-tag">Project Management</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h3 class="resume-section-title">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" stroke="currentColor" stroke-width="2"/>
+                                <rect x="8" y="2" width="8" height="4" rx="1" ry="1" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            Certifications & Achievements
+                        </h3>
+                        
+                        <div class="resume-item">
+                            <h4>Certifications</h4>
+                            <ul class="resume-details">
+                                <li><strong>Certiport HTML & CSS</strong> - Web development fundamentals certification</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item">
+                            <h4>Seminars & Webinars Attended</h4>
+                            <ul class="resume-details">
+                                <li>International Research Conference on Information Technology Education</li>
+                                <li>Introduction to AI - Understanding the Basics</li>
+                                <li>Data Privacy and Protection in the Digital Age</li>
+                                <li>Hack-Proofing your Digital World</li>
+                                <li>Introduction to GitHub Actions</li>
+                                <li>The People Pleaser Career: A Practical Roadmap for UI/UX Design Field</li>
+                                <li>3rd International Summit and Research Conference on Information Technology</li>
+                                <li>Power of Data: Essential Tips and Techniques in Statistical Data Analysis and Research Publication</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item">
+                            <h4>Awards & Recognition</h4>
+                            <ul class="resume-details">
+                                <li><strong>3rd Place District Representative</strong> - Robotics and Intelligent Machines (Team) - 2019-2020</li>
+                                <li><strong>Leadership Role</strong> - Promoted to Head of Technical Team at NEUST Honor Society</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p class="section-subtitle">Ready to start my design career and contribute to meaningful projects</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-intro">
+                            <h3>Get In Touch</h3>
+                            <p>
+                                I'm actively seeking opportunities to begin my career in UI/UX and graphic design. 
+                                Whether you're looking for a junior designer, intern, or collaborator on a project, 
+                                I'd love to hear from you! I bring fresh perspectives, strong technical skills, 
+                                and a passion for creating user-centered solutions.
+                            </p>
+                        </div>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2"/>
+                                        <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Email</h4>
+                                    <a href="mailto:kevinmatthewlopezpalma@gmail.com">kevinmatthewlopezpalma@gmail.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Phone</h4>
+                                    <a href="tel:09082609219">0908-260-9219</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="2"/>
+                                        <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Location</h4>
+                                    <p>Block 24, Lot 14, Lemnos Street, Camella Nueva Ecija, Cabanatuan City, Nueva Ecija</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h4>Find me online</h4>
+                            <div class="social-icons">
+                                <a href="#" class="social-link" aria-label="LinkedIn">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" stroke="currentColor" stroke-width="2"/>
+                                        <rect x="2" y="9" width="4" height="12" stroke="currentColor" stroke-width="2"/>
+                                        <circle cx="4" cy="4" r="2" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-link" aria-label="Behance">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                        <path d="M3 8v8a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z" stroke="currentColor" stroke-width="2"/>
+                                        <path d="M7 12h4M15 6h4M17 10a2 2 0 1 1 0 4 2 2 0 0 1 0-4z" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-link" aria-label="Dribbble">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                        <path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-link" aria-label="Instagram">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2"/>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2"/>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Company/Organization</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="job-opportunity">Job Opportunity</option>
+                                <option value="internship">Internship</option>
+                                <option value="freelance">Freelance Project</option>
+                                <option value="collaboration">Collaboration</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell me about the opportunity or project you have in mind..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                <line x1="22" y1="2" x2="11" y2="13" stroke="currentColor" stroke-width="2"/>
+                                <polygon points="22,2 15,22 11,13 2,9 22,2" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Kevin Matthew L. Palma</h3>
+                    <p>UI/UX & Graphic Designer</p>
+                    <p class="footer-status">
+                        <span class="status-dot"></span>
+                        Available for opportunities
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#case-studies">Case Studies</a></li>
+                            <li><a href="#creative-works">Creative Works</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#resume">Resume</a></li>
+                            <li><a href="mailto:kevinmatthewlopezpalma@gmail.com">Email</a></li>
+                            <li><a href="tel:09082609219">Phone</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kevin Matthew L. Palma. All rights reserved.</p>
+                <p>Designed and developed with passion</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
 </body>
 </html>
-
-<script>
-function openModal(id) {
-  document.getElementById(id).style.display = 'flex';
-}
-
-function closeModal(id) {
-  document.getElementById(id).style.display = 'none';
-}
-
-// Close modal on outside click
-window.addEventListener('click', function(e) {
-  document.querySelectorAll('.modal').forEach(modal => {
-    if (e.target === modal) {
-      modal.style.display = 'none';
-    }
-  });
-});
-</script>
-
-<script>
-
-  document.addEventListener("DOMContentLoaded", () => {
-  const animatedElements = document.querySelectorAll('.animate-on-scroll');
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('show');
-        observer.unobserve(entry.target); // Animate only once
-      }
-    });
-  }, {
-    threshold: 0.2
-  });
-
-  animatedElements.forEach(el => observer.observe(el));
-});
-
-</script>
